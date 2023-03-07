@@ -1,3 +1,8 @@
 {
-  "pipeline": {}
+  "pipeline": {
+    "turboinstall": {
+      "inputs": ["package.json", "package-lock.json"],
+      "outputs": ["node_modules/**"]
+    }
+  }
 }
