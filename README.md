@@ -1,4 +1,4 @@
-# caching node moduels with turbo
+# caching node modules with turbo
 
 ## Usage
 
