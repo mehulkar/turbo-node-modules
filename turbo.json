@@ -1,6 +1,7 @@
 {
   "pipeline": {
     "turboinstall": {
+      "env": ["NODE_VERSION", "OS_ARCH"],
       "inputs": ["package.json", "package-lock.json"],
       "outputs": ["node_modules/**"]
     }
