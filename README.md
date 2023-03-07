@@ -3,5 +3,5 @@
 ## Usage
 
 ```sh
-rm -rf node_modules && npx turbo turboinstall --cache-dir=./mycache
+rm -rf node_modules && npm run installx
 ```
